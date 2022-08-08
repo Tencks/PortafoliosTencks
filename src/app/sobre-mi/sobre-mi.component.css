@@ -1,0 +1,316 @@
+body{
+    height: 85vh;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+i{
+    margin-right: 8px;
+}
+.MyInfo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 30vh;
+}
+.MyInfo  h2{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    padding: 20% 0%;
+}
+
+.MyInfo p{
+    grid-column: 1/4;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 0% 0% 3%;
+}
+#text2{
+    grid-column: 1/4;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 0% 0% 3%;
+    margin-top: 15%;
+}
+.MyInfo button{
+    grid-column: 2/3;
+    font-size: 1.1em;
+    background-color: #80e2e4;
+    height: 50%;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all .3s;
+}
+.MyInfo button a{color: black;}
+.MyInfo a{text-decoration: none;}
+.MyInfo button:active{
+    background-color: #AEFEFF;
+    transition: all .3s;
+}
+.MyInfo button:hover{
+    background-color: #AEFEFF;
+    transition: all .3s;
+}
+
+.MySkills{
+    position: relative;
+    left: 5%;
+    transform: translateY(-30%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 90%;
+    animation-name: skillsAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+.Skill1 span:nth-child(1){
+    color: red;
+}
+.Skill1 span:nth-child(2){
+    color: rgb(162, 240, 45);
+}
+.Skill2 span:nth-child(1){
+    color:orange;
+}
+.Skill2 span:nth-child(2){
+    color:blue;
+}
+.Skill3 span:nth-child(1){
+    color:orangered;
+}
+.Skill3 span:nth-child(2){
+    color:mediumblue;
+}
+.Skill4 span:nth-child(1){
+    color:mediumpurple;
+}
+.Skill4 span:nth-child(2){
+    color:lightcoral;
+}
+.MySkills h2{
+    text-align: center;
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.MySkills li{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    line-height: 200%;
+}
+.MySkills i{
+    line-height: 200%;
+}
+.MySkills .Skill0{grid-column: 1/2;}.MySkills .Skill1{grid-column: 1/2;grid-row: 2;}.MySkills .Skill2{grid-column: 1/2;grid-row: 3;}.MySkills .Skill3{grid-column: 1/2;grid-row: 4;}.MySkills .Skill4{grid-column: 1/2;grid-row: 5;}.MySkills .Skill5{grid-column: 1/2;grid-row: 6;}.MySkills .Skill6{grid-column: 1/2;grid-row: 7;}.MySkills .Skill7{grid-column: 1/2;grid-row: 8;}.MySkills .Skill8{grid-column: 1/2;grid-row: 9;}.MySkills .Skill9{grid-column: 1/2;grid-row: 10;}
+.MySkills .Hobbie0{grid-column: 3/4;transform: skewY(10deg);}.MySkills .Hobbie1{grid-column: 3/4;grid-row: 2;transform: skewY(10deg);}.MySkills .Hobbie2{grid-column: 3/4;grid-row:3;transform: skewY(10deg);}.MySkills .Hobbie3{grid-column: 3/4;grid-row:4;transform: skewY(10deg);}.MySkills .Hobbie4{grid-column: 3/4;grid-row:5;transform: skewY(10deg);}
+
+/*MOVIL VERSION*/
+@media only screen and (min-width:375px){
+    .MySkills{font-size: .8em;position: absolute;top: 90%;}
+}
+@media only screen and (max-width:500px){
+    body{transform: translateY(5%);}.MySkills{transform: translateY(-100%);}
+}
+@media only screen and (max-width:600px){
+    body{transform: translateY(10%);}.MySkills{transform: translateY(-100%);}
+}
+@media only screen and (max-width:700px){
+    body{transform: translateY(15%);}.MySkills{transform: translateY(-100%);}
+}
+/*MOVIL VERSION*/
+
+/*TABLET VERSION*/
+@media only screen and (min-width:700px){
+    body{transform: translateY(25%);}.MySkills{transform: translateY(-50%);}
+    .MyInfo{font-size: 1.2em;}.MySkills{font-size: 1.2em;}
+    #text2{margin-top: 10%;}
+}
+@media only screen and (min-width:810px){
+    .MyInfo {font-size: 1.2em;margin-top: 15%;}#text2{margin-top: 5%;}
+    .MySkills{font-size: 1.4em;position: absolute;top: 100%;}
+}
+
+@media only screen and (min-width:1000px){
+    .MyInfo{transform: translateY(10%)}.MySkills{transform: translateY(-50%);}
+    #text2{margin-top: 5%;}
+}
+/*TABLET VERSION*/
+
+/*PC VERSION*/
+@media only screen and (min-width:1250px){
+    body{transform: translateY(45%)}
+    .MyInfo h2{padding: 0%;font-size: 2em;}.MyInfo button{transform: scale(.8);}
+    .MyInfo p{display: flex;justify-content: space-around;font-size: 1.4em;}
+    .MySkills{top:35%;font-size: 1.5em;}
+    .MySkills{transform: translateY(50%);}
+}
+@media only screen and (min-width:1360px){
+    body{transform: translateY(55%)}
+    .MyInfo h2{padding: 0%;font-size: 2em;}.MyInfo p{display: flex;justify-content: space-around;font-size: 1.5em;}
+    .MySkills{top:35%;font-size: 1.5em;}
+}
+@media only screen and (min-width:1600px){
+    body{transform: translateY(75%)}
+    .MyInfo h2{padding: 0%;font-size: 2em;}.MyInfo p{display: flex;justify-content: space-around;font-size: 1.5em;}
+    .MySkills{top:35%;font-size: 1.5em;}
+}
+@media only screen and (min-width:1900px){
+    body{transform: translateY(65%)}
+    .MyInfo h2{padding: 0%;font-size: 2em;}.MyInfo p{display: flex;justify-content: space-around;font-size: 1.5em;}
+    .MySkills{top:35%;font-size: 1.6em;}
+}
+/*PC VERSION*/
+
+
+/**********************ANIMACIONES************************/
+.Skill1 span:nth-child(1){
+    animation-name:Angular;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+.Skill1 span:nth-child(2){
+    animation-name:Android;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 700ms;
+    opacity: 0;
+}
+.Skill2 span:nth-child(1){
+    animation-name:Python;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 1200ms;
+    opacity: 0;
+}
+.Skill2 span:nth-child(2){
+    animation-name:Figma;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 1700ms;
+    opacity: 0;
+}.Skill3 span:nth-child(1){
+    animation-name:Html;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 2200ms;
+    opacity: 0;
+}
+.Skill3 span:nth-child(2){
+    animation-name:Css;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 2700ms;
+    opacity: 0;
+}.Skill4 span:nth-child(1){
+    animation-name:Github;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 3200ms;
+    opacity: 0;
+}
+.Skill4 span:nth-child(2){
+    animation-name:Git;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 3700ms;
+    opacity: 0;
+}
+/**********************ANIMACIONES************************/
+
+/**********************ANIMACIONES SECUENCIAS************************/
+@keyframes skillsAnimate{
+    from{left: 2%;}
+    to{left: 8%;}
+}
+@keyframes Angular{
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    15%{transform: scale(1.5);}
+    20%{transform: scale(1.5);}
+    30%{transform: rotate(180deg);}
+    to{transform:rotate(3600deg);font-size: 1.4em;}    
+}
+@keyframes Android{   
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    15%{transform: scale(1.5);}
+    20%{transform: scale(1.5);}
+    30%{transform: rotate(-180deg);}
+    to{transform:rotate(-3600deg);font-size: 1.4em;}
+}
+@keyframes Python{
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(180deg);}
+    to{transform:rotate(3600deg);font-size: 1.4em;}    
+}
+@keyframes Figma{   
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(-180deg);}
+    to{transform:rotate(-3600deg);font-size: 1.4em;}
+}
+@keyframes Html{
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(180deg);}
+    to{transform:rotate(3600deg);font-size: 1.4em;}    
+}
+@keyframes Css{   
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(-180deg);}
+    to{transform:rotate(-3600deg);font-size: 1.4em;}
+}
+@keyframes Github{
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(180deg);}
+    to{transform:rotate(3600deg);font-size: 1.4em;}    
+}
+@keyframes Git{   
+    from{opacity: .3;font-size: 1.3em;}
+    5%{opacity: 1;}
+    10%{transform: scale(1.5);}
+    25%{transform: rotate(-180deg);}
+    to{transform:rotate(-3600deg);font-size: 1.4em;}
+}
+
+/**********************ANIMACIONES SECUENCIAS************************/
+
+
+
+
