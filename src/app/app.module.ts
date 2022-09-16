@@ -9,6 +9,8 @@ import { SobreMiComponent } from './sobre-mi/sobre-mi.component';
 import { MisProjectosComponent } from './mis-projectos/mis-projectos.component';
 import { AreaDeContactoComponent } from './area-de-contacto/area-de-contacto.component';
 import { HeaderComponent } from './header/header.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 
@@ -23,7 +25,13 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
