@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1663337825292,
+  "index": "https://Tencks.Github.io/PortafoliosTencks/./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Tencks.Github.io/PortafoliosTencks/index.html",
+        "https://Tencks.Github.io/PortafoliosTencks/main.41883f754030a10c.js",
+        "https://Tencks.Github.io/PortafoliosTencks/manifest.webmanifest",
+        "https://Tencks.Github.io/PortafoliosTencks/polyfills.7237967b05b2c9d9.js",
+        "https://Tencks.Github.io/PortafoliosTencks/runtime.c2e60286d88cd916.js",
+        "https://Tencks.Github.io/PortafoliosTencks/styles.a9544c01f05fcf49.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Tencks.Github.io/PortafoliosTencks/assets/BackKwaii.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/Currículum Robertino Spini img.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/Currículum Ronbertino Spini.pdf",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/IMG_20220204_012056_959.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/background1.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/backgroundLaptop.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion1.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion2.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion3.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-128x128.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-144x144.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-152x152.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-192x192.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-384x384.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-512x512.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-72x72.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-96x96.png",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/perfil.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/perfil1.jpg",
+        "https://Tencks.Github.io/PortafoliosTencks/assets/torii.ico"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://Tencks.Github.io/PortafoliosTencks/assets/BackKwaii.jpg": "0d22b0c48a822db366140a2bff8a056457294054",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/Currículum Robertino Spini img.jpg": "e076a21bebd9bf4172d04f66ae88dc93a18ce685",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/Currículum Ronbertino Spini.pdf": "9cbcf67dec231aa3845e7d3c5d186bba92029c2a",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/IMG_20220204_012056_959.jpg": "de724049377b7fc46d7948a7bf7bbecd7cd77a05",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/background1.jpg": "68e0c47f650c8dea7ed662ea72f3b3d998d16c42",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/backgroundLaptop.jpg": "49d374ec7955123ffaa3f74ae23b2b42ebe6dc78",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion1.jpg": "dbded32e1447c0442cdf9e6924c961df3a777633",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion2.jpg": "772725927332b0e84d6c65564561531d2dc9aa7f",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/demoVersion3.jpg": "5b9a49fbfc080bf830a23fb34d0a82ad4049de56",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-128x128.png": "fc07f2333e91673c787a888c320307a95f98c973",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-144x144.png": "b895e70adae20168cc0b44fbb5b0fdbf39bdeb30",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-152x152.png": "f6206506d44fd0b9c62a62b5f098a8edf31e6bf4",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-192x192.png": "77b4edeb5c2be82399c17ddf6c2b9c5e1425a3ce",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-384x384.png": "c4774cdbd59291d04b7f4c6d6b1a88b07d097a4e",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-512x512.png": "a305bf34f6f1a619d6500ab269b539e26a83103f",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-72x72.png": "737822799a45c09be3bdacf78da7436bcf4cf1b7",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/icons/icon-96x96.png": "cafdc766425fe5d7b67828b7bcf42c4007d5d39b",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/perfil.jpg": "847c71113d4f6944421d998c33ca5e4fae1f4586",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/perfil1.jpg": "727e5494aa90db6b3de0881b9f36594591b3e303",
+    "https://Tencks.Github.io/PortafoliosTencks/assets/torii.ico": "a305bf34f6f1a619d6500ab269b539e26a83103f",
+    "https://Tencks.Github.io/PortafoliosTencks/index.html": "91edf74129d3ab2f5770130ea95b6214f3464794",
+    "https://Tencks.Github.io/PortafoliosTencks/main.41883f754030a10c.js": "b30f6b9d646c2ab16e3ca66c5c651e784d095945",
+    "https://Tencks.Github.io/PortafoliosTencks/manifest.webmanifest": "309d4144ca94ad169b9d622239f95dce5e514c5b",
+    "https://Tencks.Github.io/PortafoliosTencks/polyfills.7237967b05b2c9d9.js": "f23ccb0fac99b4ca1a221a8320baa71b7da2a9cb",
+    "https://Tencks.Github.io/PortafoliosTencks/runtime.c2e60286d88cd916.js": "48c4651e475aef196fe8bb00984c8ada58465a7d",
+    "https://Tencks.Github.io/PortafoliosTencks/styles.a9544c01f05fcf49.css": "67aaafeb7ee61dd46cf947e63d6a992f00266a78"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
